@@ -1,0 +1,21 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test_win": "set NODE_ENV=test && mocha test '**/*.spec.js'",
+    "test": "mocha test './**/*.spec.js'"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": "",
+  "description": ""
+}
