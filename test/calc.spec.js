@@ -1,5 +1,5 @@
-const calcModule = require('../calc')
-const { expect } = require('chai')
+import calcModule from '../calc'
+import { expect } from 'chai'
 
 describe('calc test', () => {
   it('sum should return 4', (done) => {
