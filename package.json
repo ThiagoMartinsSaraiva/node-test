@@ -4,13 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha test --require babel-core/register './**/*.spec.js'"
+    "test": "jest"
   },
   "dependencies": {
-    "chai": "^4.2.0",
-    "express": "^4.17.1",
-    "mocha": "^7.0.1",
-    "sinon": "^8.1.1"
+    "express": "^4.17.1"
   },
   "directories": {
     "test": "test"
@@ -18,8 +15,10 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-jest": "^25.1.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-es2017": "^6.24.1"
+    "babel-preset-es2017": "^6.24.1",
+    "jest": "^25.1.0"
   },
   "author": "Thiago Saraiva",
   "description": "testing node.js repo"
