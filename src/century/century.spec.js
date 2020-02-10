@@ -16,4 +16,9 @@ describe('Century test', () => {
   test('the year 2001 belongs to the 21 century', () => {
     expect(Century.getCentury(2001)).toBe(21)
   })
+
+  it('should return 19', () => {
+    expect(Century.getCentury(1890)).toBe(19)
+  });
+  
 });
